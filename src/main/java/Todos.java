@@ -17,8 +17,8 @@ public class Todos {
     public String getAllTasks() {
         Collections.sort(listTask);
         StringBuilder list = new StringBuilder();
-        for (String s : listTask) {
-            list.append(s).append(" ");
+        for (String task : listTask) {
+            list.append(task).append(" ");
         }
         return list.toString();
     }
