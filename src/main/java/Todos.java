@@ -2,9 +2,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Todos {
-    String type;
-    String task;
-    List<String> listTask = new ArrayList<>();
+    protected List<String> listTask = new ArrayList<>();
 
     public void addTask(String task) {
         listTask.add(task);
@@ -21,13 +19,5 @@ public class Todos {
             list.append(task).append(" ");
         }
         return list.toString();
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public String getTask() {
-        return task;
     }
 }
