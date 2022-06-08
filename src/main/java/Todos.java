@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Todos {
     protected List<String> listTask = new ArrayList<>();
